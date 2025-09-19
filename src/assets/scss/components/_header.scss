@@ -1,0 +1,46 @@
+.header {
+  border: 1px solid black;
+  padding: 10px 20px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__nav,
+  &__logo,
+  &__user,
+  &__user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__logo-img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+
+  &__nav-link {
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+  }
+
+  &__user-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+  }
+}

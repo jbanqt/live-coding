@@ -13,5 +13,6 @@ require('foundation-sites');
 // the line below
 //import './lib/foundation-explicit-pieces';
 
+import './top'
 
 $(document).foundation();

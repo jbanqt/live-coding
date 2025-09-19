@@ -1,3 +1,4 @@
+
 // @charset 'utf-8';
 
 // @import 'settings';
@@ -63,3 +64,6 @@
 // // Motion UI
 // @include motion-ui-transitions;
 // @include motion-ui-animations;
+
+@import 'components/top';
+@import 'components/header';
